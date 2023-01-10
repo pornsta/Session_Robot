@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+API_ID = os.getenv("API_ID", "27221429").strip()
+API_HASH = os.getenv("API_HASH", "60f1725be1c059a2523c1b90d53c7808").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5944412356:AAHM0I8tHNyzLaRgG0_Dw4EswzH9H2jX0Co").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://cokbgkam:PLmxpepP23-SjMtZBKvaavAeRbz-WIDt@rosie.db.elephantsql.com/cokbgkam").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "botsmasterc")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
